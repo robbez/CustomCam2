@@ -9,10 +9,6 @@
     <license>Apache 2.0</license>
     <keywords>custom,camera</keywords>
 
-<engines>
-    <engine name="cordova" version=">=3.1.0" />
-</engines>
-
 <js-module src="www/js/customcamera.js" name="customCamera">
     <clobbers target="navigator.customCamera" />
 </js-module>
